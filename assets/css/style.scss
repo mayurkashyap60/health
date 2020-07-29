@@ -1,0 +1,132 @@
+$primary: #00234f;
+$secondary: #de1343;
+$main: #ffffff;
+$font: 'bold';
+$light: 'light';
+$full: 100%;
+$breakpoint-tablet: 768px;
+@font-face {
+    font-family: 'light';
+    src: url(/assets/fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background: $main;
+    font-family: $font;
+    color: $primary;
+}
+a{
+    color: $secondary;
+}
+footer{
+    background: $primary;
+    padding: 6em 0 1em;
+}
+footer{
+    ul{
+        list-style-type: none;
+        padding: 10px 0 0 0;
+    }
+    li{
+        margin: 0 0 10px;
+    }
+    .social{
+        display: inline-flex;
+        float: right;
+    }
+}
+.social{
+    li{
+        padding: 0 8px;
+    }
+}
+.newsletter{
+    background: $primary;
+}
+.news{
+    background: $secondary;
+    text-align: left;
+    border-radius: 25px;
+    margin-top: -100px;
+}
+.news{
+    img{
+        border-radius: 25px;
+    }
+}
+.first{
+    background: url(/assets/images/Project.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 15%;
+}
+.second{
+    background: url(/assets/images/Projects.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#overlay {
+    width: $full; 
+    height: $full; 
+    padding: 10em 0;
+    border-bottom-left-radius: 15%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00234fb8; 
+    z-index: 2; 
+    cursor: pointer;
+  }
+  #overlays{
+    width: $full; 
+    height: $full; 
+    padding: 10em 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00234fb8; 
+    z-index: 2; 
+    cursor: pointer;
+  }
+  .pink{
+      color: $secondary;
+  }
+  .btn-book{
+    background: $secondary;
+  }
+  .icon-box{
+    padding: 3rem 1.5rem;
+    margin: 1rem;
+    box-shadow: 4px 10px 15px #5d575729;
+    border-radius: 5px;
+  }
+  .icon-box{
+      span{
+          font-size: xx-large;
+          color: $secondary;
+      }
+  }
+.testimonial{
+    img{
+        position: relative;
+        top: -80px;
+    }
+    h3{
+        margin-top: -40px;
+    }
+}  
+@media(max-width: $breakpoint-tablet){
+    .nav-bg{
+        background: $primary;
+    }
+}

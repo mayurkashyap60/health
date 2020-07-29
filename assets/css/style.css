@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'light';
+  src: url(/assets/fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url(/assets/fonts/Poppins-Regular.ttf);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: #ffffff;
+  font-family: "bold";
+  color: #00234f;
+}
+
+a {
+  color: #de1343;
+}
+
+footer {
+  background: #00234f;
+  padding: 6em 0 1em;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 10px 0 0 0;
+}
+
+footer li {
+  margin: 0 0 10px;
+}
+
+footer .social {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  float: right;
+}
+
+.social li {
+  padding: 0 8px;
+}
+
+.newsletter {
+  background: #00234f;
+}
+
+.news {
+  background: #de1343;
+  text-align: left;
+  border-radius: 25px;
+  margin-top: -100px;
+}
+
+.news img {
+  border-radius: 25px;
+}
+
+.first {
+  background: url(/assets/images/Project.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 15%;
+}
+
+.second {
+  background: url(/assets/images/Projects.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  padding: 10em 0;
+  border-bottom-left-radius: 15%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00234fb8;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlays {
+  width: 100%;
+  height: 100%;
+  padding: 10em 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00234fb8;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.pink {
+  color: #de1343;
+}
+
+.btn-book {
+  background: #de1343;
+}
+
+.icon-box {
+  padding: 3rem 1.5rem;
+  margin: 1rem;
+  -webkit-box-shadow: 4px 10px 15px #5d575729;
+          box-shadow: 4px 10px 15px #5d575729;
+  border-radius: 5px;
+}
+
+.icon-box span {
+  font-size: xx-large;
+  color: #de1343;
+}
+
+.testimonial img {
+  position: relative;
+  top: -80px;
+}
+
+.testimonial h3 {
+  margin-top: -40px;
+}
+
+@media (max-width: 768px) {
+  .nav-bg {
+    background: #00234f;
+  }
+}
+/*# sourceMappingURL=style.css.map */
